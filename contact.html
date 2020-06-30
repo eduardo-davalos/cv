@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h3>Contact Information</h3>
+    <ul>
+      <li><strong>Email:</strong>hero285@hotmail.com</li>
+      <li>
+        <strong>LinkedIn:</strong
+        ><a href="https://www.linkedin.com/in/eduardo-davalos-maldonado/"
+          >Eduardo</a
+        >
+      </li>
+    </ul>
+    <hr />
+    <form action="mailto:hero285@hotmail.com" method="POST" enctype="text/plain">
+      <label for="userName">Your name</label>
+      <input type="text" name="userName" id="userName" /><br />
+      <label for="userEmail">Your email</label>
+      <input type="email" name="userEmail" id="userEmail" /><br />
+      <label for="userMessage">Your message</label><br />
+      <textarea
+        name="userMessage"
+        id="userMessage"
+        cols="30"
+        rows="10"
+      ></textarea
+      ><br />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
